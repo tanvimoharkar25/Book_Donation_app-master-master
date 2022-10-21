@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+</head>
+<body>
+    <a href="/"><img src="{{ url_for('static', filename='images/logo.png') }}" id="logo"></a>
+   <h1>About our Aim</h1>
+   <div id="section3">
+    <h1>what do we do with the donated books?</h1>
+    <h2>we take those books and give it to some trustable NGO's.The NGO's donate the books to trusted orphanages. </h2>
+    <div id="imgslider">
+        <button id="previousbutton" class="arrowbutton">&lt;</button>
+        <div>
+            <img src="{{ url_for('static', filename='images/booksimg1.jpeg') }}" id="img1" style="display:block;">
+            <img src="{{ url_for('static', filename='images/booksimg2.jpeg') }}" id="img2" style="display: none;">
+            <img src="{{ url_for('static', filename='images/download.jpeg') }}" id="img3" style="display: none;">
+        </div>
+        <button id="nextbutton" class="arrowbutton">&gt; </button>
+    </div>
+    
+</div> 
+<script src="{{ url_for('static', filename='index.js') }}"></script>
+<script src="{{ url_for('static', filename='home.js') }}"></script>     
+</body>
+</html>

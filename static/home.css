@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comic Neue', cursive;;
+     
+
+   
+}
+#head{
+    color: pink;
+}
+h3{
+    position: relative;
+    align-items: left;
+}
+
+#section1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aeb7ff;
+    background-image: url('images/Imgland7.jpeg');
+    background-size: 1450px 800px ;
+    background-repeat: no-repeat;
+
+
+   
+
+ }
+
+ #b1{
+    border: black;
+    margin-top: 2px;
+ }
+
+
+#section2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: #B2C8DF;
+
+}
+#b1{
+    background-color: #B09B71;
+    border-radius: 17px;
+    color: black;
+    padding: 10px;
+    width: 170px;
+    cursor: pointer;
+}
+
+
+#logo{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.testButton1
+{
+font-size:200%;
+position: absolute;
+margin-right: 500px;
+
+
+
+}
+
+.testButton1 img
+{
+height:150%;
+vertical-align: center;
+
+}
+#section4{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B2C8DF;
+    font-family: 'Roboto Slab', serif;
+}
+
+table{
+    border-spacing: 0;
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+td{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 300px;
+    border:1px solid black;
+
+    
+}
+
+th{
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+    padding-right: 10px;
+    width: 300px;
+    border:1px solid black;
+}
+
+td:last-child{
+    width: 100px;
+}
+th:last-child{
+    width: 100px;
+}
+
+
+
+@media (max-width:699px) {
+    #logo{
+        width: 50%;
+    }
+    #img1,#img2,#img3{
+        width: 100%;
+    }
+}
